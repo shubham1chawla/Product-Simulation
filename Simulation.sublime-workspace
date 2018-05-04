@@ -1,0 +1,1304 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"produ",
+				"production_limit_per_day"
+			],
+			[
+				"pro",
+				"profit_per_product"
+			],
+			[
+				"product",
+				"production_limit_per_day"
+			],
+			[
+				"pr",
+				"production_limit_per_day"
+			],
+			[
+				"tot",
+				"total_profit"
+			],
+			[
+				"pop",
+				"pop_size"
+			],
+			[
+				"po",
+				"pop_size"
+			],
+			[
+				"prod",
+				"product_popularity"
+			],
+			[
+				"tota",
+				"total_cost_per_product"
+			],
+			[
+				"produc",
+				"product_sold"
+			],
+			[
+				"to",
+				"total_profit"
+			],
+			[
+				"Tota",
+				"total_profit"
+			],
+			[
+				"rate",
+				"rate_product_sold"
+			],
+			[
+				"dice",
+				"dice_value"
+			],
+			[
+				"dic",
+				"dice_value"
+			],
+			[
+				"die",
+				"dice_value"
+			],
+			[
+				"globa",
+				"global"
+			],
+			[
+				"rend",
+				"available_land_percentage_render_buy_modal"
+			],
+			[
+				"buy",
+				"buy_skip_disabler_logic"
+			],
+			[
+				"render",
+				"render_current_player_location_info"
+			],
+			[
+				"ste",
+				"step_v"
+			],
+			[
+				"st",
+				"step_v"
+			],
+			[
+				"set",
+				"step_v"
+			],
+			[
+				"step",
+				"step_d"
+			],
+			[
+				"fina",
+				"finalArray"
+			],
+			[
+				"nu",
+				"num_rows"
+			],
+			[
+				"results",
+				"results_properties"
+			],
+			[
+				"m",
+				"mysqli"
+			],
+			[
+				"current",
+				"current_index"
+			],
+			[
+				"cou",
+				"coupon"
+			],
+			[
+				"play",
+				"playerarray"
+			],
+			[
+				"cir",
+				"current_player_id"
+			],
+			[
+				"RE",
+				"REFRESH_RATE_NON_ACTIVE"
+			],
+			[
+				"c",
+				"current_player_id"
+			],
+			[
+				"player",
+				"playerarray"
+			],
+			[
+				"curre",
+				"current_player_id"
+			],
+			[
+				"curr",
+				"current_player_id"
+			],
+			[
+				"feed",
+				"feed_number"
+			],
+			[
+				"fee",
+				"feed_number"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"res",
+				"responseText"
+			],
+			[
+				"a",
+				"amount"
+			],
+			[
+				"tra",
+				"transactions"
+			],
+			[
+				"pla",
+				"player_land"
+			],
+			[
+				"HTML",
+				"HTMLString"
+			],
+			[
+				"net",
+				"net_worth"
+			],
+			[
+				"pri",
+				"price"
+			],
+			[
+				"aler",
+				"alert"
+			],
+			[
+				"pass",
+				"passkey"
+			],
+			[
+				"mt_",
+				"mt_rand"
+			],
+			[
+				"alert-",
+				"alert-danger"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"HT",
+				"HTMLString"
+			],
+			[
+				"req",
+				"request_rate_other"
+			],
+			[
+				"re",
+				"responseText"
+			],
+			[
+				"l",
+				"l_per"
+			],
+			[
+				"update",
+				"updateLandPrices"
+			],
+			[
+				"row_playe",
+				"row_player_land"
+			],
+			[
+				"results_play",
+				"results_player_land"
+			],
+			[
+				"percen",
+				"percentage"
+			],
+			[
+				"pos",
+				"position_active"
+			],
+			[
+				"col",
+				"col-md-6"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"e_",
+				"e_life"
+			],
+			[
+				"DE",
+				"DELETE"
+			],
+			[
+				"row_even",
+				"row_event"
+			],
+			[
+				"row_pla",
+				"row_players_land"
+			],
+			[
+				"results_",
+				"results_players_land"
+			],
+			[
+				"cur",
+				"current_land_id"
+			],
+			[
+				"resul",
+				"results_players_land"
+			],
+			[
+				"row",
+				"row_current_player"
+			],
+			[
+				"get",
+				"get_all_data"
+			],
+			[
+				"data",
+				"data_array"
+			],
+			[
+				"land",
+				"land_event"
+			],
+			[
+				"event",
+				"row_events"
+			],
+			[
+				"wor",
+				"worldIndex"
+			],
+			[
+				"add",
+				"addTransactionTable"
+			],
+			[
+				"table",
+				"table-striped"
+			],
+			[
+				"ro",
+				"row_current_player"
+			],
+			[
+				"roll",
+				"rollDice"
+			],
+			[
+				"cu",
+				"current_player_id-1"
+			],
+			[
+				"cen",
+				"center"
+			],
+			[
+				"curren",
+				"current_index"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"con",
+				"container-fluid"
+			],
+			[
+				"us",
+				"user_info"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"not",
+				"notify_toggle"
+			],
+			[
+				"no",
+				"notify"
+			],
+			[
+				"cue",
+				"current_player_id"
+			],
+			[
+				"cr",
+				"current_player_id"
+			],
+			[
+				"amou",
+				"amount_per_results"
+			],
+			[
+				"amo",
+				"amount_per_results"
+			],
+			[
+				"reults",
+				"results_id"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"sele",
+				"select_properties"
+			],
+			[
+				"por",
+				"properties"
+			],
+			[
+				"col-",
+				"col-md-6"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"send",
+				"send_data"
+			],
+			[
+				"se",
+				"serializeArray"
+			],
+			[
+				"admi",
+				"admin_password"
+			],
+			[
+				"reset",
+				"resetBtnCallAuthentication"
+			],
+			[
+				"resr",
+				"resetForm"
+			],
+			[
+				"new",
+				"new_j_life"
+			],
+			[
+				"JAIL",
+				"JAIL_LIFE"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"upda",
+				"updateJailStatus"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"next",
+				"next_btn"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"backgroun",
+				"background-position"
+			],
+			[
+				"ad",
+				"admin_password"
+			],
+			[
+				"admin",
+				"admin_username"
+			],
+			[
+				"inc",
+				"incl\tinclude …"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"is",
+				"isPaused"
+			],
+			[
+				"left",
+				"padding-left"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"resu",
+				"results_new"
+			],
+			[
+				"current_la",
+				"current_land_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Index.py",
+			"settings":
+			{
+				"buffer_size": 134,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Market.py",
+			"settings":
+			{
+				"buffer_size": 1719,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Simulation.py",
+			"settings":
+			{
+				"buffer_size": 1162,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Person.py",
+			"settings":
+			{
+				"buffer_size": 1549,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Product.py",
+			"settings":
+			{
+				"buffer_size": 147,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 884.0,
+		"last_filter": "py",
+		"selected_items":
+		[
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"p",
+				"Set Syntax: Python"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"map",
+				"View: Toggle Minimap"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"toggle",
+				"View: Toggle Minimap"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"togg",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ja",
+				"Set Syntax: Java"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"projec",
+				"Project: Refresh Folders"
+			],
+			[
+				"toggle fol",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"mater",
+				"Activate Materialize Theme"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"arm",
+				"Package Control: Remove Package"
+			],
+			[
+				"mate",
+				"Activate Materialize Theme"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"red",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"b",
+				"Build With: python3"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"vie",
+				"View: Toggle Tabs"
+			]
+		],
+		"width": 1240.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Coding/Capstone/test.py",
+		"/D/Coding/Capstone/3dtest.py",
+		"/D/Coding/Development/Product Simulation/Index.py",
+		"/D/Coding/Development/Product Simulation/test.py",
+		"/C/xampp/htdocs/BackCanvas/receive_data.inc.php",
+		"/C/xampp/htdocs/BackCanvas/game.inc.php",
+		"/C/xampp/htdocs/BackCanvas/js/Variables.js",
+		"/C/xampp/htdocs/BackCanvas/js/Helper.js",
+		"/C/xampp/htdocs/BackCanvas/js/CanvasCore.js",
+		"/C/xampp/htdocs/BackCanvas/dashboard.inc.php",
+		"/D/Coding/Practice/myBST.cpp",
+		"/D/Coding/Competitive/C & C++/2017/BST.cpp",
+		"/C/xampp/htdocs/SeamerJS/index.html",
+		"/C/xampp/htdocs/seamer/seamer.js",
+		"/D/Coding/Competitive/Project Euler/PE3.cpp",
+		"/D/Coding/Competitive/Project Euler/PE4.cpp",
+		"/D/Coding/Competitive/Project Euler/PE6.cpp",
+		"/D/Coding/Competitive/Project Euler/PE7.cpp",
+		"/D/Coding/Competitive/PE3.cpp",
+		"/D/Coding/Competitive/test.py",
+		"/C/xampp/htdocs/BackCanvas/authenticate.inc.php",
+		"/C/xampp/htdocs/BackCanvas/js/BackMap.js",
+		"/C/xampp/htdocs/BackCanvas/js/other.js",
+		"/D/Coding/Competitive/C & C++/2018/Linklist/LL_me.cpp",
+		"/C/xampp/htdocs/BackCanvas/login.inc.php",
+		"/C/xampp/htdocs/BackCanvas/test.php",
+		"/C/xampp/htdocs/BackCanvas/fonts/sofia.css",
+		"/C/xampp/htdocs/BackCanvas/fonts/fontawesome-free-5.0.9/README.md",
+		"/C/xampp/htdocs/BackCanvas/css/gliph.css",
+		"/C/xampp/htdocs/BackCanvas/css/all.css",
+		"/C/xampp/htdocs/BackCanvas/js/temp.js",
+		"/C/xampp/htdocs/BackCanvas/temp.html",
+		"/C/xampp/htdocs/BackCanvas/index.php",
+		"/C/xampp/htdocs/roomManager/index.php",
+		"/C/xampp/htdocs/BackCanvas/js/test.php",
+		"/C/xampp/htdocs/BackCanvas/js/bootstrap.min.js",
+		"/C/xampp/htdocs/BackCanvas/js/map.js",
+		"/C/xampp/htdocs/roomManager/login.inc.php",
+		"/C/xampp/htdocs/BackCanvas/connection.inc.php",
+		"/C/xampp/htdocs/BackCanvas/receive_data.php",
+		"/C/xampp/htdocs/BackCanvas/game.php",
+		"/C/xampp/htdocs/BackCanvas/dashboard.php",
+		"/C/xampp/htdocs/BackCanvas/js/info.js",
+		"/C/xampp/htdocs/roomManager/dashboard.inc.php",
+		"/C/xampp/htdocs/BackCanvas/connection.php",
+		"/C/xampp/htdocs/roomManager/checkav.inc.php",
+		"/C/xampp/htdocs/BackCanvas/js/receiveData.php",
+		"/C/xampp/htdocs/monopoly/app/views/inc/footer.php",
+		"/C/xampp/htdocs/roomManager/addroom.inc.php",
+		"/C/xampp/htdocs/BackCanvas/js/map2.js",
+		"/D/SAIC/Monopoly/Back Canvas/js/map.js",
+		"/D/SAIC/Monopoly/Back Canvas/connection.php",
+		"/D/SAIC/Monopoly/Back Canvas/index.php",
+		"/C/xampp/htdocs/monopoly/app/views/dashboard/index.php",
+		"/C/xampp/htdocs/monopoly/app/views/inc/header.php",
+		"/C/xampp/htdocs/monopoly/public/js/map.js",
+		"/D/SAIC/Monopoly/Canvas/js/map.js",
+		"/D/SAIC/Monopoly/Canvas/index.html",
+		"/C/xampp/htdocs/monopoly/app/views/index.php",
+		"/D/SAIC/Monopoly/Canvas/js/functions.js",
+		"/C/xampp/htdocs/monopoly/app/views/happenings/index.php",
+		"/C/xampp/htdocs/monopoly/app/views/property/index.php",
+		"/C/xampp/htdocs/monopoly/app/views/users/index.php",
+		"/C/xampp/htdocs/monopoly/app/controllers/Dashboard.php",
+		"/D/Study/Udita/linkedlistUdita.cpp",
+		"/D/Study/DS_Lab/linkedlist.cpp",
+		"/D/Udita/arrayLibByUdita.cpp",
+		"/D/Udita/linkedlistUdita.cpp",
+		"/C/xampp/htdocs/monopoly/public/index.php",
+		"/C/xampp/htdocs/roomManager/monopoly/app/views/dashboard/index.php",
+		"/C/xampp/htdocs/roomManager/monopoly/app/views/inc/footer.php",
+		"/C/xampp/htdocs/roomManager/monopoly/public/js/map.js",
+		"/C/xampp/htdocs/roomManager/monopoly/app/views/inc/header.php",
+		"/C/xampp/htdocs/roomManager/monopoly/public/css/style.css",
+		"/D/Coding/Gamer Hand/JS/Car Game/Main.js",
+		"/D/Coding/Gamer Hand/JS/Car_Game_v2.0/js/Track.js",
+		"/D/Coding/Gamer Hand/JS/Car_Game_v2.0/js/Main.js",
+		"/D/Coding/Gamer Hand/JS/Car_Game_v2.0/js/ImageLoading.js",
+		"/D/Coding/Gamer Hand/JS/Bricks/bricksv1.html",
+		"/D/Coding/Gamer Hand/JS/Car_Game_v2.0/js/GraphicsBuilder.js",
+		"/C/Users/shubh/Desktop/map.html",
+		"/C/xampp/htdocs/roomManager/editroom.inc.php",
+		"/C/xampp/htdocs/roomManager/selectroom.inc.php",
+		"/D/Coding/Gamer Hand/JS/Car_Game_v2.0/js/Input.js",
+		"/C/xampp/htdocs/roomManager/requests.inc.php",
+		"/C/xampp/htdocs/roomManager/manage.inc.php",
+		"/C/xampp/htdocs/roomManager/admin_dash.inc.php",
+		"/C/xampp/htdocs/roomManager/confirm.inc.php",
+		"/C/xampp/htdocs/roomManager/admin_dash.php",
+		"/C/xampp/htdocs/roomManager/adduser.php",
+		"/C/xampp/htdocs/roomManager/booking.inc.php",
+		"/C/xampp/htdocs/roomManager/Query.dat",
+		"/C/xampp/htdocs/roomManager/confirm.php",
+		"/C/xampp/htdocs/roomManager/temp.html",
+		"/C/xampp/htdocs/roomManager/css/style.css",
+		"/C/Users/shubh/AppData/Local/Temp/Rar$DIa10892.48639/index.php",
+		"/C/xampp/htdocs/roomManager/css/box-shadow.css",
+		"/C/xampp/htdocs/roomManager/dashboard2.inc.php",
+		"/C/xampp/htdocs/roomManager/documentation.txt",
+		"/C/xampp/htdocs/roomManager/connection.php",
+		"/C/xampp/htdocs/roomManager/addroom.php",
+		"/C/xampp/htdocs/roomManager/logout.inc.php",
+		"/D/Study/DS_Lab/first.cpp",
+		"/C/xampp/htdocs/RoomManagementSystem/logout.inc.php",
+		"/C/xampp/htdocs/RoomManagementSystem/css/blocks.css",
+		"/C/xampp/htdocs/RoomManagementSystem/checkav.inc.php",
+		"/C/xampp/htdocs/RoomManagementSystem/adduser.php",
+		"/C/xampp/htdocs/RoomManagementSystem/css/dashboard.css",
+		"/C/xampp/htdocs/RoomManagementSystem/temp.html",
+		"/C/Users/shubh/Desktop/temp.html",
+		"/C/xampp/htdocs/RoomManagementSystem/addroom.php",
+		"/C/xampp/htdocs/RoomManagementSystem/dashboard2.inc.php",
+		"/C/xampp/htdocs/RoomManagementSystem/dashboard.inc.php",
+		"/C/xampp/htdocs/RoomManagementSystem/documentation.txt",
+		"/C/xampp/htdocs/RoomManagementSystem/index.php",
+		"/C/xampp/htdocs/RoomManagementSystem/login.inc.php",
+		"/C/xampp/htdocs/RoomManagementSystem/index",
+		"/C/xampp/htdocs/RoomManagementSystem/authenticate2.php",
+		"/D/Study/second_arm.textile",
+		"/D/Study/first_arm.asm",
+		"/C/xampp/htdocs/RoomManagementSystem/connection.php",
+		"/D/Coding/Tutorial/SQL_Notes",
+		"/D/SUPERHOT-GOG/README.txt",
+		"/D/Coding/Competitive/C & C++/2017/BinarySearch.cpp",
+		"/D/Coding/Competitive/C & C++/2017/LinkedList Library/LinkedListUsingLib.cpp",
+		"/D/Coding/Development/PHP/Exam Seating Plan/Notes.txt",
+		"/C/xampp/htdocs/CodeDynamicWebsites/05_GetYourHandsDirty/index.php",
+		"/C/xampp/htdocs/CodeDynamicWebsites/05_GetYourHandsDirty/practice.php"
+	],
+	"find":
+	{
+		"height": 66.0
+	},
+	"find_in_files":
+	{
+		"height": 395.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"production_limit_per_day",
+			"production_limit",
+			"nonlocal",
+			"&&",
+			"1.05",
+			"*1.05",
+			"self.",
+			"def",
+			"type",
+			"render_current_player_location_info",
+			"login_user_info",
+			"inorder",
+			"preorder",
+			"left",
+			"rght",
+			"left",
+			"long long",
+			"length",
+			"long long",
+			"long",
+			"int",
+			"20/step_v",
+			"len(values)",
+			"len(values[0])",
+			"player_land",
+			"\"",
+			"positionImage_active",
+			"loadImage",
+			"index_current",
+			"loadImage",
+			"div",
+			"span",
+			"\"",
+			"div",
+			"\"",
+			"add_btn",
+			"players_tab",
+			"current_user_info",
+			"\"",
+			"add_status",
+			"\"",
+			"current_player_id-1",
+			"i",
+			"\"",
+			"show_all_player",
+			"event_btn",
+			"\"",
+			"properties",
+			"</b>",
+			"<b>",
+			"players",
+			"myFunction",
+			"request_rate",
+			"||",
+			"row_player_land",
+			"results_player_land",
+			"span",
+			"tradeToLandSelect",
+			"current_player_id-1",
+			"i",
+			"positionImage",
+			"player_img",
+			"loadImage",
+			"keyup",
+			"mysqli",
+			"buyModal_btn",
+			"row_events",
+			"tradeFromPersonSelect",
+			"elevel",
+			"location_buy_info",
+			"updateJailStatus",
+			"\"",
+			"window",
+			"\\",
+			"$",
+			";",
+			"$",
+			"1111",
+			"updateLandPrices",
+			"ctx",
+			"+",
+			"row_players",
+			"results_players",
+			"checkCircleForBonus",
+			"span",
+			"\"",
+			"span",
+			"\"",
+			"buyModal_btn",
+			"6",
+			"user_info",
+			"buyModal",
+			"\"",
+			"span",
+			"\"",
+			"400",
+			"h3",
+			"\"",
+			"5",
+			"\t\t\t\t\t\t\t\n",
+			"12",
+			"land_select",
+			"closeByClickOutside() {\n    const containerEl = this.container.nativeElement;\n    containerEl.querySelector('.modal-content').addEventListener('click', (event)=> {\n      event.stopPropagation();\n    });\n    containerEl.addEventListener('click', () => {\n        this.dialogService.removeDialog(this.content);\n    }, false);\n  }\n}",
+			"\"",
+			"row_players",
+			"results_players",
+			"admin",
+			"cover",
+			"0px",
+			"0",
+			"\"",
+			"auto",
+			"3",
+			"row_player",
+			"results_player",
+			"h2",
+			"properties",
+			"transactions",
+			"addTransactionTable",
+			"transaction",
+			"\t",
+			"><",
+			"\n",
+			"r",
+			"toggleAJAX",
+			"updateplayer",
+			"toggleAJAX",
+			"OWNERSHIP"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"row_players",
+			"results_players",
+			"playerarray",
+			"row_players",
+			"current_index",
+			"index_value"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Index.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Market.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1675,
+								1675
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 522.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Simulation.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1162,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1139,
+								1139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 631.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Person.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1549,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								481,
+								481
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 265.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Product.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 66.0
+	},
+	"input":
+	{
+		"height": 150.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 900.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/python3.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 122.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 331.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 980.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 125.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
