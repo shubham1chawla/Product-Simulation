@@ -53,39 +53,41 @@ class Simulation:
 				if(start >= self.pop_size):
 					start = 0
 					break
+					
 				Market.callRepair()
 				Market.GenerateResultsPerDay(len(Market.person_product)-1)
 
 			# Increasing per day production limit every year
 			Market.production_limit_per_day += k*15
+			Market.ad_sponsor_amount += k*1000
 
 
 	def showResults(self):
 		f, axarr = plt.subplots(1, 2, sharey=True)
-		f.suptitle('AirHelm Revenue Projection Chart')
+		f.suptitle('AirHelm Profit Projection Chart')
 
 		axarr[0].plot(Market.y)
 		axarr[0].plot([0 for x in range(len(Market.y))])
-		# axarr[0].title("Total Revenue vs Product Sold")
+		# axarr[0].title("Total Profit vs Product Sold")
 		axarr[0].set_xlabel("Product Sold")
-		axarr[0].set_ylabel("Total Revenue")
+		axarr[0].set_ylabel("Total Profit")
 		
 		axarr[1].scatter(365, Market.total_revenue_per_day[365], c='r', marker='o')
 		axarr[1].scatter(730, Market.total_revenue_per_day[730], c='r', marker='o')
 		axarr[1].plot(Market.total_revenue_per_day)
 		axarr[1].plot([0 for x in range(len(Market.total_revenue_per_day))])
-		# axarr[1].title("Total Revenue vs Days")
+		# axarr[1].title("Total Profit vs Days")
 		axarr[1].set_xlabel("Day(s)")
-		axarr[1].set_ylabel("Total Revenue")
+		axarr[1].set_ylabel("Total Profit")
 
 		plt.show()
 
 
 	def showResultsPerProduct(self):
 		plt.plot(Market.y)
-		plt.title("Total Revenue vs Product Sold")
+		plt.title("Total Profit vs Product Sold")
 		plt.xlabel("Product Sold")
-		plt.ylabel("Total Revenue")
+		plt.ylabel("Total Profit")
 		plt.show()
 
 	def showProductPerson(self):
@@ -93,9 +95,9 @@ class Simulation:
 
 	def showResultsPerDay(self):
 		plt.plot(Market.total_revenue_per_day)
-		plt.title("Total Revenue vs Days")
+		plt.title("Total Profit vs Days")
 		plt.xlabel("Day(s)")
-		plt.ylabel("Total Revenue")
+		plt.ylabel("Total Profit")
 		plt.show()
 
 

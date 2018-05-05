@@ -13,7 +13,7 @@ class Person:
 	def buyProduct(self):
 
 		# Generating Situation
-		mood = float(0.35*Market.product_popularity) + float(0.65*self.willToBuy/(self.hasBought+1))
+		mood = float(0.3*Market.product_popularity) + float(0.7*self.willToBuy/(self.hasBought+1))
 
 		# RICH people can buy multiple
 		if self.typeOfPop != 0:
