@@ -10,11 +10,14 @@ person_product = []
 GAIN_FACTOR = 500				# After every 1000 sold products
 product_popularity = 0.05
 production_limit_per_day = 20;
+product_service_cost = 2000;
 
-total_investment = 91195200		# initial amount needed to manufacture 4800 products
+# total_investment = 91195200		# initial amount needed to manufacture 4800 products
+total_investment = 150000000		# initial amount needed to manufacture 4800 products
 total_revenue = 0
 total_profit = 0
 failure_stories = 0
+total_revenue_per_day = []
 
 y = []
 x = []
@@ -27,12 +30,12 @@ def showProductPerson():
 			print("Person ID: "+str(person_product[i][1])+" | Product cost: "+str(person_product[i][0].total_cost + person_product[i][0].profit)+" | Fail status: "+str(person_product[i][0].isFailed))
 
 def callRepair():
-	global person_product, product_popularity, total_revenue, failed_product
+	global person_product, product_popularity, total_revenue, failed_product, product_service_cost
 
 	for i in range(len(person_product)):
 		if person_product[i][0].isFailed:
 			failed_product += 1
-			total_revenue -= (person_product[i][0].total_cost + person_product[i][0].profit)
+			total_revenue -= (person_product[i][0].total_cost + person_product[i][0].profit + product_service_cost)
 			print("----FAULTY PRODUCT----")
 			person_product[i][0].isFailed = not bool(randint(0,10)%10)
 
@@ -52,7 +55,7 @@ def updateProductCost():
 
 def alterPopularity():
 	global product_sold, product_popularity, failed_product
-	product_popularity = float(0.444 + (1.111/math.pi)*math.atan(((product_sold - 135*failed_product)/1000)-2))
+	product_popularity = float(0.444 + (1.111/math.pi)*math.atan(((product_sold - 120*failed_product)/1000)-2))
 
 
 def updateMarketStatus():
@@ -69,3 +72,8 @@ def updateMarketStatus():
 
 	alterPopularity()
 	updateProductCost()
+
+
+def GenerateResultsPerDay(product_sold_that_day):
+	global total_revenue_per_day, y
+	total_revenue_per_day.extend([y[product_sold_that_day]])

@@ -2,6 +2,7 @@ from random import randint
 from Person import Person
 import Market
 import matplotlib.pyplot as plt
+import csv
 
 class Simulation:
 
@@ -35,6 +36,9 @@ class Simulation:
 		start = 0;
 
 		for k in range(1, 4):
+
+			print("Production per day limit: "+str(Market.production_limit_per_day))
+
 			for i in range(1, 365):
 
 				# Per day sales and call in for repairs
@@ -45,18 +49,61 @@ class Simulation:
 					self.population[start + j].buyProduct()
 
 				start += Market.production_limit_per_day
+
 				if(start >= self.pop_size):
+					start = 0
 					break
 				Market.callRepair()
+				Market.GenerateResultsPerDay(len(Market.person_product)-1)
 
 			# Increasing per day production limit every year
 			Market.production_limit_per_day += k*15
 
 
 	def showResults(self):
-		plt.plot(Market.y)
+		f, axarr = plt.subplots(1, 2, sharey=True)
+		f.suptitle('AirHelm Revenue Projection Chart')
+
+		axarr[0].plot(Market.y)
+		axarr[0].plot([0 for x in range(len(Market.y))])
+		# axarr[0].title("Total Revenue vs Product Sold")
+		axarr[0].set_xlabel("Product Sold")
+		axarr[0].set_ylabel("Total Revenue")
+		
+		axarr[1].scatter(365, Market.total_revenue_per_day[365], c='r', marker='o')
+		axarr[1].scatter(730, Market.total_revenue_per_day[730], c='r', marker='o')
+		axarr[1].plot(Market.total_revenue_per_day)
+		axarr[1].plot([0 for x in range(len(Market.total_revenue_per_day))])
+		# axarr[1].title("Total Revenue vs Days")
+		axarr[1].set_xlabel("Day(s)")
+		axarr[1].set_ylabel("Total Revenue")
+
 		plt.show()
 
 
+	def showResultsPerProduct(self):
+		plt.plot(Market.y)
+		plt.title("Total Revenue vs Product Sold")
+		plt.xlabel("Product Sold")
+		plt.ylabel("Total Revenue")
+		plt.show()
+
 	def showProductPerson(self):
 		Market.showProductPerson()
+
+	def showResultsPerDay(self):
+		plt.plot(Market.total_revenue_per_day)
+		plt.title("Total Revenue vs Days")
+		plt.xlabel("Day(s)")
+		plt.ylabel("Total Revenue")
+		plt.show()
+
+
+	def exportAllData(self):
+		with open("csv/per_product.csv","w") as f:
+			wr = csv.writer(f, delimiter="\n")
+			wr.writerow(Market.y)
+
+		with open("csv/per_day.csv","w") as f:
+			wr = csv.writer(f, delimiter="\n")
+			wr.writerow(Market.total_revenue_per_day)

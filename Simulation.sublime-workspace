@@ -4,12 +4,40 @@
 		"selected_items":
 		[
 			[
-				"produ",
-				"production_limit_per_day"
+				"tot",
+				"total_revenue_per_day"
+			],
+			[
+				"reve",
+				"revenue_per_day"
+			],
+			[
+				"prod",
+				"product_service_cost"
+			],
+			[
+				"fail",
+				"failed_product"
+			],
+			[
+				"fai",
+				"failed_product"
+			],
+			[
+				"rand",
+				"randint"
 			],
 			[
 				"pro",
-				"profit_per_product"
+				"product_popularity"
+			],
+			[
+				"per",
+				"person_product"
+			],
+			[
+				"produ",
+				"production_limit_per_day"
 			],
 			[
 				"product",
@@ -20,20 +48,12 @@
 				"production_limit_per_day"
 			],
 			[
-				"tot",
-				"total_profit"
-			],
-			[
 				"pop",
 				"pop_size"
 			],
 			[
 				"po",
 				"pop_size"
-			],
-			[
-				"prod",
-				"product_popularity"
 			],
 			[
 				"tota",
@@ -494,26 +514,6 @@
 			[
 				"for",
 				"form\tTag"
-			],
-			[
-				"is",
-				"isPaused"
-			],
-			[
-				"left",
-				"padding-left"
-			],
-			[
-				"stat",
-				"status"
-			],
-			[
-				"resu",
-				"results_new"
-			],
-			[
-				"current_la",
-				"current_land_id"
 			]
 		]
 	},
@@ -523,16 +523,7 @@
 			"file": "Index.py",
 			"settings":
 			{
-				"buffer_size": 134,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Market.py",
-			"settings":
-			{
-				"buffer_size": 1719,
+				"buffer_size": 251,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -541,7 +532,16 @@
 			"file": "Simulation.py",
 			"settings":
 			{
-				"buffer_size": 1162,
+				"buffer_size": 2882,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Market.py",
+			"settings":
+			{
+				"buffer_size": 2865,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -588,10 +588,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 884.0,
-		"last_filter": "py",
+		"height": 334.0,
+		"last_filter": "pyth",
 		"selected_items":
 		[
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
 			[
 				"py",
 				"Set Syntax: Python"
@@ -729,10 +733,6 @@
 				"Word Wrap: Toggle"
 			],
 			[
-				"pyth",
-				"Set Syntax: Python"
-			],
-			[
 				"b",
 				"Build With: python3"
 			],
@@ -769,6 +769,7 @@
 	},
 	"file_history":
 	[
+		"/D/Coding/Development/Product-Simulation/per_product.csv",
 		"/D/Coding/Capstone/test.py",
 		"/D/Coding/Capstone/3dtest.py",
 		"/D/Coding/Development/Product Simulation/Index.py",
@@ -895,8 +896,7 @@
 		"/D/Coding/Competitive/C & C++/2017/BinarySearch.cpp",
 		"/D/Coding/Competitive/C & C++/2017/LinkedList Library/LinkedListUsingLib.cpp",
 		"/D/Coding/Development/PHP/Exam Seating Plan/Notes.txt",
-		"/C/xampp/htdocs/CodeDynamicWebsites/05_GetYourHandsDirty/index.php",
-		"/C/xampp/htdocs/CodeDynamicWebsites/05_GetYourHandsDirty/practice.php"
+		"/C/xampp/htdocs/CodeDynamicWebsites/05_GetYourHandsDirty/index.php"
 	],
 	"find":
 	{
@@ -915,6 +915,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"n",
+			",\n\n",
+			"ay",
+			"ax",
+			"plt",
 			"production_limit_per_day",
 			"production_limit",
 			"nonlocal",
@@ -1037,12 +1042,7 @@
 			"transaction",
 			"\t",
 			"><",
-			"\n",
-			"r",
-			"toggleAJAX",
-			"updateplayer",
-			"toggleAJAX",
-			"OWNERSHIP"
+			"\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1050,6 +1050,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			",\n",
 			"row_players",
 			"results_players",
 			"playerarray",
@@ -1075,15 +1076,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 134,
+						"buffer_size": 251,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								134,
-								134
+								102,
+								102
 							]
 						],
 						"settings":
@@ -1099,48 +1100,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "Market.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1719,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1675,
-								1675
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 522.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "Simulation.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1162,
+						"buffer_size": 2882,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1139,
-								1139
+								2776,
+								2776
 							]
 						],
 						"settings":
@@ -1149,10 +1121,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 631.0,
+						"translation.y": 2635.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Market.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1955,
+								1955
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1848.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1168,8 +1169,8 @@
 						"selection":
 						[
 							[
-								481,
-								481
+								579,
+								607
 							]
 						],
 						"settings":
@@ -1178,7 +1179,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 265.0,
+						"translation.y": 456.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -1258,7 +1259,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 122.0
+		"height": 307.0
 	},
 	"save_all_on_build": true,
 	"select_file":
