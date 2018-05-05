@@ -1,8 +1,10 @@
 import math
+from random import randint
 
 total_cost_per_product = 18999
 profit_per_product = 2000
 product_sold = 0
+failed_product = 0				# Number of failed products
 rate_product_sold = 4800		# rate of product sold per week
 person_product = []
 GAIN_FACTOR = 500				# After every 1000 sold products
@@ -17,6 +19,22 @@ failure_stories = 0
 y = []
 x = []
 
+# DEBUG PURPOSE
+def showProductPerson():
+	global person_product
+	for i in range(len(person_product)):
+		if person_product[i][0].isFailed:
+			print("Person ID: "+str(person_product[i][1])+" | Product cost: "+str(person_product[i][0].total_cost + person_product[i][0].profit)+" | Fail status: "+str(person_product[i][0].isFailed))
+
+def callRepair():
+	global person_product, product_popularity, total_revenue, failed_product
+
+	for i in range(len(person_product)):
+		if person_product[i][0].isFailed:
+			failed_product += 1
+			total_revenue -= (person_product[i][0].total_cost + person_product[i][0].profit)
+			print("----FAULTY PRODUCT----")
+			person_product[i][0].isFailed = not bool(randint(0,10)%10)
 
 def updateProductCost():
 	global product_sold, total_cost_per_product, profit_per_product, GAIN_FACTOR
@@ -33,8 +51,8 @@ def updateProductCost():
 
 
 def alterPopularity():
-	global product_sold, product_popularity
-	product_popularity = float(0.444 + (1.111/math.pi)*math.atan((product_sold/1000)-2))
+	global product_sold, product_popularity, failed_product
+	product_popularity = float(0.444 + (1.111/math.pi)*math.atan(((product_sold - 135*failed_product)/1000)-2))
 
 
 def updateMarketStatus():

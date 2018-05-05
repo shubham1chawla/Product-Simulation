@@ -32,20 +32,31 @@ class Simulation:
 
 
 	def playSimulation(self):
-
-		# Generating population
-
 		start = 0;
 
-		for i in range(1, 365*3):
-			print("Day: "+str(i))
-			for j in range(0, Market.production_limit_per_day-1):
-				self.population[start + j].buyProduct()
-			start += Market.production_limit_per_day
-			if(start >= self.pop_size):
-				break
+		for k in range(1, 4):
+			for i in range(1, 365):
+
+				# Per day sales and call in for repairs
+				print("Year: "+str(k)+" | Day: "+str(i))
+
+				# Selling products
+				for j in range(0, Market.production_limit_per_day-1):
+					self.population[start + j].buyProduct()
+
+				start += Market.production_limit_per_day
+				if(start >= self.pop_size):
+					break
+				Market.callRepair()
+
+			# Increasing per day production limit every year
+			Market.production_limit_per_day += k*15
 
 
 	def showResults(self):
 		plt.plot(Market.y)
 		plt.show()
+
+
+	def showProductPerson(self):
+		Market.showProductPerson()
