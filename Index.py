@@ -1,8 +1,7 @@
 from Simulation import Simulation
 
 # Arguement carries population size
-s1 = Simulation(50000)
-
+s1 = Simulation(100000)
 s1.generatePopulation()
 s1.playSimulation()
 

@@ -8,25 +8,25 @@ class Simulation:
 
 	def __init__(self, pop_size):
 		self.population = []
-		self.pop_size = pop_size					# initial population size
+		self.pop_size = pop_size						# initial population size
 
 	def generatePopulation(self):
 		for x in range(1, self.pop_size):
 			
 			# Creating a person
-			typeOfPerson = randint(0,2)				# Type 0 MED, 1 RICH, 2 HIGHLY RICH
+			typeOfPerson = randint(0,2)					# Type 0 MED, 1 RICH, 2 HIGHLY RICH
 
 			if typeOfPerson == 0:
-				willToBuy = float(randint(2,5)/10)
-				threshold = float(randint(7,9)/10)
+				willToBuy = float(randint(2,5)/10)		# Will to buy [2,5]
+				threshold = float(randint(7,9)/10)		# Threshold   [7,9]
 
 			elif typeOfPerson == 1:
-				willToBuy = float(randint(4,7)/10)
-				threshold = float(randint(6,7)/10)
+				willToBuy = float(randint(4,7)/10)		# Will to buy [4,7]
+				threshold = float(randint(6,7)/10)		# Threshold   [7,9]
 
 			elif typeOfPerson == 2:
-				willToBuy = float(randint(7,9)/10)
-				threshold = float(randint(5,6)/10)
+				willToBuy = float(randint(7,9)/10)		# Will to buy [7,9]
+				threshold = float(randint(5,6)/10)		# Threshold   [7,9]
 
 			p = Person(typeOfPerson, willToBuy, threshold)
 			self.population.extend([p])
@@ -53,7 +53,7 @@ class Simulation:
 				if(start >= self.pop_size):
 					start = 0
 					break
-					
+
 				Market.callRepair()
 				Market.GenerateResultsPerDay(len(Market.person_product)-1)
 

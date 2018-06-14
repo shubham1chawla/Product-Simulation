@@ -4,16 +4,28 @@
 		"selected_items":
 		[
 			[
+				"pr",
+				"product_popularity"
+			],
+			[
+				"pro",
+				"production_limit_per_day"
+			],
+			[
 				"tot",
-				"total_revenue_per_day"
+				"total_revenue"
+			],
+			[
+				"prod",
+				"product_sold"
+			],
+			[
+				"por",
+				"product_sold"
 			],
 			[
 				"reve",
 				"revenue_per_day"
-			],
-			[
-				"prod",
-				"product_service_cost"
 			],
 			[
 				"fail",
@@ -28,10 +40,6 @@
 				"randint"
 			],
 			[
-				"pro",
-				"product_popularity"
-			],
-			[
 				"per",
 				"person_product"
 			],
@@ -41,10 +49,6 @@
 			],
 			[
 				"product",
-				"production_limit_per_day"
-			],
-			[
-				"pr",
 				"production_limit_per_day"
 			],
 			[
@@ -432,10 +436,6 @@
 				"select_properties"
 			],
 			[
-				"por",
-				"properties"
-			],
-			[
 				"col-",
 				"col-md-6"
 			],
@@ -523,7 +523,7 @@
 			"file": "Index.py",
 			"settings":
 			{
-				"buffer_size": 251,
+				"buffer_size": 265,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -532,7 +532,7 @@
 			"file": "Simulation.py",
 			"settings":
 			{
-				"buffer_size": 2882,
+				"buffer_size": 3040,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -541,7 +541,7 @@
 			"file": "Market.py",
 			"settings":
 			{
-				"buffer_size": 2865,
+				"buffer_size": 3409,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -550,7 +550,7 @@
 			"file": "Person.py",
 			"settings":
 			{
-				"buffer_size": 1549,
+				"buffer_size": 1547,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -915,6 +915,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Revenue",
 			"n",
 			",\n\n",
 			"ay",
@@ -1041,8 +1042,7 @@
 			"addTransactionTable",
 			"transaction",
 			"\t",
-			"><",
-			"\n"
+			"><"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1076,15 +1076,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 251,
+						"buffer_size": 265,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								102,
-								102
+								265,
+								265
 							]
 						],
 						"settings":
@@ -1104,15 +1104,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2882,
+						"buffer_size": 3040,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2776,
-								2776
+								433,
+								433
 							]
 						],
 						"settings":
@@ -1121,7 +1121,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2635.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1133,15 +1133,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2865,
+						"buffer_size": 3409,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1955,
-								1955
+								11,
+								11
 							]
 						],
 						"settings":
@@ -1150,7 +1150,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1848.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1162,15 +1162,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1549,
+						"buffer_size": 1547,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								579,
-								607
+								373,
+								383
 							]
 						],
 						"settings":
@@ -1179,7 +1179,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 456.0,
+						"translation.y": 120.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
