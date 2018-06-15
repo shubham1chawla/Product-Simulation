@@ -9,6 +9,7 @@ This python based project used Matplot Lib to plot the results obtained as day-w
 The above mentioned BMC was implemented in the sales simulation software. All the constraints are considered with respect to the BMC and implementation of this BMC in Indian Market.
 
 ## Output Plot
+***Matplot Lib is used for the plots. Install Matplot Library before compiling the index.py file.***
 ![sketch](https://user-images.githubusercontent.com/31181262/41469725-ffc9d684-70cb-11e8-9efe-31b6155a9727.png)
 
-The output obtained contains two plot, first one with product-sales wise analysis and second one with day-wise analysis. The Yellow line axis gives us **no-profit-no-loss** or **break-away point**.
+The output obtained contains two plot, first one with product-sales wise analysis and second one with day-wise analysis versus the total profit. Total profit is calculated by subtracting Total money gained on product sales and Total initial investment. The Yellow line axis gives us **no-profit-no-loss** or **break-away point**. The red dots on the day-wise analysis curve gives us the info of years passed.
