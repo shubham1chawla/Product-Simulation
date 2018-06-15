@@ -22,5 +22,6 @@ The output obtained contains two plot, first one with product-sales wise analysi
 
 ## How to use
 
-After fetching the code, use index.py to build the application. You may encounter a small delay before sales info comes on your terminal. Incase you encounter error, rebuild the project again. Matplot Lib is necessary to complete the compilation without errors.
-All the configuration variables and constants are in Market.py file. Alter them at your own risk. Ruppee was considered as the medium of money for the analysis.
+- After fetching the code, use index.py to build the application. You may encounter a small delay before sales info comes on your terminal. 
+- Incase you encounter error, rebuild the project again. Matplot Lib is necessary to complete the compilation without errors.
+- All the configuration variables and constants are in Market.py file. Alter them at your own risk. Ruppee was considered as the medium of money for the analysis.
