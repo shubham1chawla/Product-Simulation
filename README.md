@@ -9,6 +9,10 @@ Three type of population is considered in this analysis
 2. Rich Class - They can buy more than one product but have intermediate will to buy & threshold.
 3. Medium Class - They will only buy one product & only when popularity hits a certain level.
 
+### Project Report
+This is the non-technical project report of the course.
+[Final_report.pdf](https://github.com/shubham1chawla/Product-Simulation/files/2106239/Final_report.pdf)
+
 ### Business Model Canvas
 ![poster](https://user-images.githubusercontent.com/31181262/41469516-1dd204cc-70cb-11e8-980d-34071a64f18b.png)
 
@@ -25,7 +29,3 @@ The output obtained contains two plot, first one with product-sales wise analysi
 - After fetching the code, use index.py to build the application. You may encounter a small delay before sales info comes on your terminal. 
 - Incase you encounter error, rebuild the project again. Matplot Lib is necessary to complete the compilation without errors.
 - All the configuration variables and constants are in Market.py file. Alter them at your own risk. Ruppee was considered as the medium of money for the analysis.
-
-## Project Report
-This is the non-technical project report of the course.
-[Final_report.pdf](https://github.com/shubham1chawla/Product-Simulation/files/2106239/Final_report.pdf)
