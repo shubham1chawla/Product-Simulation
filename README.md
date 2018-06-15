@@ -25,3 +25,7 @@ The output obtained contains two plot, first one with product-sales wise analysi
 - After fetching the code, use index.py to build the application. You may encounter a small delay before sales info comes on your terminal. 
 - Incase you encounter error, rebuild the project again. Matplot Lib is necessary to complete the compilation without errors.
 - All the configuration variables and constants are in Market.py file. Alter them at your own risk. Ruppee was considered as the medium of money for the analysis.
+
+## Project Report
+This is the non-technical project report of the course.
+[Final_report.pdf](https://github.com/shubham1chawla/Product-Simulation/files/2106239/Final_report.pdf)
