@@ -724,8 +724,11 @@
 	},
 	"file_history":
 	[
-		"/D/Coding/Development/Product-Simulation/Market.py",
+		"/D/Coding/Development/Product-Simulation/README.md",
+		"/C/xampp/htdocs/BackCanvas/db/monopoly.sql",
+		"/C/xampp/htdocs/BackCanvas/db/playerarray.sql",
 		"/D/Coding/Development/Product-Simulation/Index.py",
+		"/D/Coding/Development/Product-Simulation/Market.py",
 		"/D/Coding/Development/Product-Simulation/Person.py",
 		"/D/Coding/Development/Product-Simulation/Simulation.py",
 		"/D/Coding/Development/Product-Simulation/Product.py",
@@ -848,10 +851,7 @@
 		"/C/xampp/htdocs/RoomManagementSystem/login.inc.php",
 		"/C/xampp/htdocs/RoomManagementSystem/index",
 		"/C/xampp/htdocs/RoomManagementSystem/authenticate2.php",
-		"/D/Study/second_arm.textile",
-		"/D/Study/first_arm.asm",
-		"/C/xampp/htdocs/RoomManagementSystem/connection.php",
-		"/D/Coding/Tutorial/SQL_Notes"
+		"/D/Study/second_arm.textile"
 	],
 	"find":
 	{
